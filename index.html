@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Marksheet</h1>
+
+    <div class="cotainer">
+
+    <div class="left">
+        <label for="math">Total Number Of Math:
+            <input type="text" id="Total Number Of Math">
+        </label>
+
+        <label for="math">Total Number Of Chemistry:
+            <input type="text" id="Total Number Of Chemistry">
+        </label>
+
+        
+         <label for="math">Total Number Of Science:
+            <input type="text" id="Total Number Of Science">
+        </label>
+
+        <label for="math">Total Number Of Physics:
+            <input type="text" id="Total Number Of Physics">
+        </label>
+
+        <label for="math">Total Number Of Computer:
+            <input type="text" id="Total Number Of Computer">
+        </label>
+
+    </div>
+  
+    <div class="right">
+    <label for="math">Obtained Number Of Math:
+        <input type="text" id="Obtained Number Of Math">
+    </label>  
+
+    <label for="math">Obtained Number Of Chemistry:
+        <input type="text" id="Obtained Number Of Chemistry">
+    </label>
+
+    <label for="math">Obtained Number Of Science:
+        <input type="text" id="Obtained Number Of Science">
+    </label>
+
+    <label for="math">Obtained Number Of Physics:
+        <input type="text" id="Obtained Number Of Physics">
+    </label>
+
+    <label for="math">Obtained Number Of Computer:
+        <input type="text" id="Obtained Number Of Computer">
+    </label>
+    
+    </div>
+
+</div>
+
+<button onclick="math()">Show Result</button>
+
+<div class="result">
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Total Number</th>
+            <th>Obtained Number</th>
+        </tr>
+
+        <tr>
+            <td>Math</td>
+            <td id="mathTotal"></td>
+            <td id="mathObtain"></td>
+        </tr>
+
+        <tr>
+            <td>Chemistry</td>
+            <td id="chemTotal"></td>
+            <td id="chemObtain"></td>
+        </tr>
+
+        <tr>
+            <td>Science</td>
+            <td id="sciTotal"></td>
+            <td id="sciObtain"></td>
+        </tr>
+
+        <tr>
+            <td>Physics</td>
+            <td id="phyTotal"></td>
+            <td id="phyObtain"></td>
+        </tr>
+
+        <tr>
+            <td>Computer</td>
+            <td id="compTotal"></td>
+            <td id="compObtain"></td>
+        </tr>
+
+        <tr>
+            <td>Total</td>
+            <td id="totalMarks"></td>
+            <td id="obtainedMarks"></td>
+        </tr>
+
+        <tr>
+            <td>Percentage:</td>
+            <td id="perc"></td>
+        </tr>
+
+        <tr>
+            <td>Grade:</td>
+            <td id="grade"></td>
+        </tr>
+
+    </table>
+</div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

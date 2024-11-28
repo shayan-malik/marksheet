@@ -1,0 +1,27 @@
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    color: dodgerblue;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+.cotainer{
+    display: flex;
+    gap: 30px;
+}
+button{
+    margin-bottom: 10px;
+}
+th{
+    padding-right: 50px;
+}
+button{
+    background-color: dodgerblue;
+    color: #fff;
+    border-style: none;
+    height: 23px;
+}
