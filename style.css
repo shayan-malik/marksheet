@@ -2,9 +2,20 @@ body{
     background-color: aliceblue;
 }
 
-h1{
-    color: dodgerblue;
+th, td{
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
 }
+
+h1{
+    color: dimgray;
+}
+
+h1:hover{
+    color: blue;
+}
+
 input{
     display: block;
     margin-bottom: 20px;
@@ -14,14 +25,15 @@ input{
     gap: 30px;
 }
 button{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-th{
-    padding-right: 50px;
-}
+
 button{
-    background-color: dodgerblue;
+    background-color: dimgray;
     color: #fff;
     border-style: none;
-    height: 23px;
+    height: 30px;
+}
+button:hover{
+    background-color: blue;
 }
